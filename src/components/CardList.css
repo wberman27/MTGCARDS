@@ -95,3 +95,17 @@ img:hover{
     cursor: pointer;
     transform: scale(1.5)
 }
+
+
+/* Mobile View */
+@media (max-width:500px){
+    button{
+        width:30%;
+        font-size: 1rem;    
+    }
+    span{
+        font-size: 1rem;
+        display: block;
+    }
+
+}
